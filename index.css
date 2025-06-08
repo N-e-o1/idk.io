@@ -1,0 +1,134 @@
+body{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bag4.jpg);
+}
+
+header {
+    position: relative;
+    height:800px; 
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.background-video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        text-align: center;
+      }
+.li1{display: inline-block;}
+.li1 a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+nav a:hover{
+    
+    color: #fff;
+    background-color:#04407a ;}
+
+#main{
+    display:flex;
+    
+}
+
+main ,h1{
+    color:white;
+    text-align: center;}
+
+#first p{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#first{
+    text-align: center;
+}
+#first img{
+    border: white solid 2px;
+    
+    border-radius:30px ;
+    height: 330px;
+    
+}
+.main-event h2{
+    text-transform: uppercase;
+    font-size:50px ;
+}
+.main-event{
+    height: 500px;
+}
+.main-event p{
+    margin-left: 20px;
+    text-align: left;
+    font-size:40px;
+    width: 60%;
+    float: left;
+}
+.main-event img{
+    border: #555252 solid;
+    height:450px;
+    width:35%;
+    float: right;
+}
+.sponsor-main{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.sponsor-image{
+    width: 15%;
+    height: 200px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.sponsor-image img{
+    border: white solid 1px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+button:hover{
+    background-image:url(redxblackw.jpg) ;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20px;}
+footer a {
+    
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(94, 98, 165, 0.795);
+}
+footer p {
+    
+    text-align: center;
+}
