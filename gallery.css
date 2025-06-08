@@ -1,0 +1,76 @@
+body{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bag4.jpg);
+}
+
+header {
+    position: relative;
+    height:800px;  
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+  }
+.li1{display: inline-block;}
+.li1 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav{
+border-radius: 20px;
+}
+nav a:hover{
+
+color: #fff;
+background-color:#04407a ;}
+
+
+.background-video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.line{
+    width: 100%;
+    display: flex;
+}
+.line img{
+    border: rgb(75, 70, 70) solid 2px;
+    border-radius: 10%;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20px;}
+footer a {
+    
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(94, 98, 165, 0.795);
+}
+footer p {
+    
+    text-align: center;
+}

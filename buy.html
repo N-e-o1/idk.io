@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025Official</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+    <header class="video-header">
+        <video autoplay muted loop class="background-video">
+            <source src="header.mp4" type="video/mp4">
+        </video>
+      </header>
+      <nav id="nav">
+        <ul id="ul">
+            <li class="li1"><a href="index.html">Home</a></li>
+            <li class="li1"><a href="gallery.html">Gallery</a></li>
+            <li class="li1"><a href="ticket.html">Tickettes</a></li>
+            <li class="li1"><a href="buy.html">Buy</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 id="buy">-BUY-</h3>   
+        <form action="success.html" >
+            <fieldset>
+                
+                <ul>
+                    <li><label for="name" >Name and last name*:</label><input  id ="name"type="text"  placeholder="Nom et prenom" required></li>
+                    <li><label for="email" >Email*: </label><input  id ="email"type="email" placeholder="exemple@.domaine.com" required> </li>
+                    <li><label for="nb" >Card number*:</label><input  id ="phone"type="number"  required> </li>
+                    <li><label for="code" >Security code*:</label><input  id ="code" type="password"  required> </li>
+                    <li>Payment methode*:<select name="statut" id="methode">
+                            <option value="1">Visa</option>
+                            <option value="2"> Credit card</option>
+                            <option value="3">Pay pal</option>
+                        </select></li>
+                    <li><label for="quantity">Quantity</label><input type="number"></li>
+                    <li><label for="type">Your ticket:</label><input type="radio">vip ticket<input type="radio">normal ticket</li>
+                </ul>
+                <button  class="button2" type="submit">Buy </button>
+                <button  class="button2" type="reset">Reset </button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Follow us on:
+            <a href="#" target="_blank">Instagram</a> | 
+            <a href="#" target="_blank">Twitter</a> | 
+            <a href="#" target="_blank">Facebook</a>
+        </p>
+        <p>&copy; 2025 Festival Tour. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
